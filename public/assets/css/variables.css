@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+:root {
+  /* Colors */
+  --primary: #0058de;
+  --primary-light: #4d85f7;
+  --primary-dark: #003ea0;
+
+  --background: #f9fafb;
+  --surface: #ffffff;
+
+  --text: #1e1e1e;
+  --text-muted: #6c757d;
+
+  --text-alt: #f1f1f1;
+  --text-muted-alt: #a9a9a9;
+
+  --border: #dee2e6;
+
+  --danger: #dc3545;
+  --success: #198754;
+  --warning: #ffc107;
+  /* Spacing (in rems for scalability) */
+  --space-0: 0;
+  --space-xs: 0.25rem; /* 4px */
+  --space-sm: 0.5rem; /* 8px */
+  --space-md: 1rem; /* 16px */
+  --space-lg: 1.5rem; /* 24px */
+  --space-xl: 2rem; /* 32px */
+  --space-2xl: 3rem; /* 48px */
+  --space-3xl: 4rem; /* 64px */
+
+  /* Padding shorthand (could also use spacing variables) */
+  --padding-container: var(--space-md);
+  --padding-section: var(--space-lg);
+
+  /* Border radius */
+  --radius-none: 0;
+  --radius-sm: 0.125rem; /* 2px */
+  --radius-md: 0.375rem; /* 6px */
+  --radius-lg: 0.5rem; /* 8px */
+  --radius-xl: 0.75rem; /* 12px */
+  --radius-full: 9999px;
+
+  /* Border width */
+  --border-thin: 1px;
+  --border-medium: 2px;
+  --border-thick: 4px;
+
+  /* Border color */
+  --border-color: #d1d5db; /* Tailwind gray-300 for example */
+
+  /* Gap for grid/flex layouts */
+  --gap-xs: var(--space-xs);
+  --gap-sm: var(--space-sm);
+  --gap-md: var(--space-md);
+  --gap-lg: var(--space-lg);
+  --gap-xl: var(--space-xl);
+  /* --- Font sizes --- */
+  --text-xs: 0.75rem; /* 12px */
+  --text-sm: 0.875rem; /* 14px */
+  --text-base: 1rem; /* 16px */
+  --text-lg: 1.125rem; /* 18px */
+  --text-xl: 1.25rem; /* 20px */
+  --text-2xl: 1.5rem; /* 24px */
+  --text-3xl: 1.875rem; /* 30px */
+  --text-4xl: 2.25rem; /* 36px */
+  /* --- Shadows --- */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.15);
+}
